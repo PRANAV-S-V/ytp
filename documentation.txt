@@ -1,0 +1,14 @@
+﻿It is a bash script for downloading youtube playlist with a single command..
+
+Here is a step by step guide:
+
+Step 1 : run the file start on your desktop using terminal.
+
+
+Step 2: ytp "name of the plalist" "url of the playlist"
+
+        eg: ytp "FolderName" "https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlU..........."
+
+The playlist will be downloaded in your home directory.
+
+
