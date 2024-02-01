@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # Rest of your script
 chmod +x ./main.sh
