@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 ytp() {
     playlist_folder="$HOME/$1"
     mkdir -p "$playlist_folder"

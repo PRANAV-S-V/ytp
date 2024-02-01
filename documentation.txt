@@ -2,7 +2,7 @@
 
 Here is a step by step guide:
 
-Step 1 : run the command - ./start.sh  
+Step 1 : run the command - source ./start.sh
          in your terminal. and follow the installation procedures and instructions that get displayed in your terminal.
 
 Step 2: ytp "name of the plalist" "url of the playlist"
