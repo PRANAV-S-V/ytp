@@ -1,14 +1,46 @@
-﻿It is a bash script for downloading youtube playlist with a single command..
 
-Here is a step by step guide:
+# YouTube Playlist Downloader
 
-Step 1 : run the command - source ./start.sh
-         in your terminal. and follow the installation procedures and instructions that get displayed in your terminal.
+This script allows you to download YouTube playlists with a single command.
 
-Step 2: ytp "name of the plalist" "url of the playlist"
+## Installation
 
-        eg: ytp "FolderName" "https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlU..........."
-
-The playlist will be downloaded in your home directory.
+**Step 1:** Run the following command in your terminal, after entering the ytp folder inside ytplay:
 
 
+source ./start.sh
+
+
+Follow the installation procedures and instructions displayed in your terminal.
+
+## Usage
+
+**Step 2:** Use the following command to download a playlist:
+
+
+ytp "name of the playlist" "url of the playlist"
+
+
+### Example:
+
+
+ytp "FolderName" "https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlU..........."
+
+
+The playlist will be downloaded to your home directory.
+
+## Running the Tool
+
+- Every time you want to use this tool:
+  - Navigate to your home directory in the terminal.
+  - Enter the following commands:
+
+    ```bash
+    source ./ytp.sh
+    ```
+
+  - Then, run the `ytp` command with the desired playlist name and URL.
+
+---
+
+ Make sure to follow the instructions carefully, and enjoy downloading your favorite playlists effortlessly!
