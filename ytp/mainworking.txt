@@ -1,3 +1,6 @@
+ Let's break down the script step by step:
+
+```bash
 #!/bin/bash
 
 # Function to install yt-dlp based on the operating system
@@ -81,4 +84,24 @@ install_ytdlp() {
 
 # Call the function to install yt-dlp based on the operating system
 install_ytdlp
+```
 
+Explanation:
+
+1. **Get the Operating System:** The script uses `uname -s` to get the operating system name, and the result is stored in the variable `OS`.
+
+2. **Case Statement:** The script uses a `case` statement to perform different actions based on the value of the operating system (`$OS`).
+
+3. **Linux Block:** If the operating system is identified as "Linux," the script checks for the presence of common package managers (`brew`, `pacman`, `apt`, `apk`) and installs `yt-dlp` accordingly.
+
+4. **macOS Block:** If the operating system is identified as "Darwin" (macOS), the script checks for the presence of common package managers (`brew`, `port`) and installs `yt-dlp` accordingly.
+
+5. **Windows Block:** If the operating system is identified as "CYGWIN" or "MINGW" (Windows), the script checks for the presence of common package managers (`scoop`, `choco`, `winget`) and installs `yt-dlp` accordingly.
+
+6. **Unsupported OS Block:** If the operating system is not recognized, the script prints a message indicating that the operating system is unsupported.
+
+7. **Function Call:** The script calls the `install_ytdlp` function at the end to initiate the installation process based
+
+ on the detected operating system.
+
+This script is designed to be versatile and install `yt-dlp` using commonly used package managers on different operating systems.
